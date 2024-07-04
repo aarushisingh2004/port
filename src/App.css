@@ -1,4 +1,28 @@
 /************ Custom Font ************/
+/*symbol icon */
+
+
+.large-icon {
+    width: 30px;
+    height: 20px;
+}
+
+.Toastify__toast--success {
+    background: #333333 !important;
+    color: #D8BFD8 !important;
+  }
+  
+  .Toastify__toast--error {
+    background: #333333 !important;
+    color: #D8BFD8 !important;
+  }
+  
+  .Toastify__progress-bar {
+    background: #D8BFD8 !important;
+  }
+  
+
+
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');

@@ -5,6 +5,8 @@ import { useState, useEffect } from "react";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import X from '../assets/img/X.png';
+import utube from '../assets/img/utube.png';
 import logo from '../assets/img/logo.svg';
 import Button from 'react-bootstrap/Button';
 
@@ -46,7 +48,15 @@ function NavBar() {
                     </Nav>
                     <span className="navbar-text d-flex align-items-center">
                         <div className="social-icon d-flex me-3">
-                            <a href="#"><img src={navIcon1} alt="Social Icon 1" className="me-2" /></a>
+                            <a href="https://www.linkedin.com/in/aarushi-singh-b00553253/"><img src={navIcon1} alt="Social Icon 1" className="me-2" /></a>
+                            <a href="https://x.com/Aarushi_builds">
+    <img src={X} className="large-icon" alt="Social Icon 2" width="64" height="48" />
+</a>
+
+<a href="https://www.youtube.com/@artificialbeing2004"><img src={utube} alt="Social Icon 3" width="64" height="48"/></a>
+
+
+
                             <a href="#"><img src={navIcon2} alt="Social Icon 2" className="me-2" /></a>
                             <a href="#"><img src={navIcon3} alt="Social Icon 3" /></a>
                         </div>
