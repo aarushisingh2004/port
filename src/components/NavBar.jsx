@@ -7,7 +7,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import X from '../assets/img/X.png';
 import utube from '../assets/img/utube.png';
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo.png';
 import Button from 'react-bootstrap/Button';
 
 function NavBar() {
